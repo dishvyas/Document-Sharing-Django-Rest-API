@@ -8,7 +8,7 @@ urlpatterns = [
 
     url(r'^admin/', admin.site.urls),
 
-    url(r'^api/accounts/', include('accounts.api.urls')),
+    url(r'^accounts/', include('accounts.api.urls')),
 
     path('', views.Home.as_view(), name='home'),
     path('upload/', views.upload, name='upload'),
