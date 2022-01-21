@@ -9,7 +9,7 @@ django-crispy-forms==1.7.2
 djangorestframework
 decorator==4.0.11
 enum34==1.1.6
-ipython==5.3.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 kombu==4.0.2
 packaging==16.8
